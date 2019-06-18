@@ -1,0 +1,22 @@
+/* 
+Color : primary|danger|warning|info|success|muted|secondary|dark|light|body
+padding/margin : 1(4px, 0.25rem) | 2(8px, 0.5rem) | 3(16px, 1rem) | 4(24px, 1.5rem) | 5(36px, 2rem)
+*/
+
+/* 우선순위 */
+/* 태그 < 클래스 < 아이디 < 인라인코딩(style="color:red;") < color:red !important; */
+/*
+#box {background-color: chartreuse;}
+.box {background-color: blue;}
+#box > div {color: fuchsia;}
+.box > .txt1 {color: dodgerblue !important;}
+*/
+
+/* 기본세팅 */
+html, body {height: 100%;}
+div, ul, ol, li, dl, dt, dd, p, table, img, form {margin: 0; padding: 0;}
+ul, ol, li, dl, dt, dd {list-style: none;}
+
+.container, .container-fluid {margin: 0 auto; padding: 0;}
+.table {margin: 0;}
+
